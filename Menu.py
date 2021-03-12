@@ -21,8 +21,9 @@ def menuP():
         opcion = menu()
         if opcion == '1':
             cadena = openFile()
-            entrada.analizador(cadena)
-
+            listatk = entrada.analizador(cadena)
+            for i in listatk:
+                print(i)
         # elif opcion == '2':
 
         # if opcion == '3':

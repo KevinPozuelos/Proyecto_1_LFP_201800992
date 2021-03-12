@@ -1,6 +1,6 @@
 restaurante='Restaurante LFP'
 'Bebidas':
-[bebida_1;'Bebida #1';11.;'Descripcion Bebida 1'    ]
+[bebida_1;'Bebida #1';11.;'Descripcion Bebida 1']
 [ bebida_2;'Bebida #2';10.50;'Descripcion Bebida 2']
 'Desayunos':
 [d1;'Desayuno 1';45.00;'Descripcion Desayuno 1']
