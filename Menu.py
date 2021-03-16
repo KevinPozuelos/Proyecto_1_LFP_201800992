@@ -1,6 +1,8 @@
 from AutomataMenu import *
 from funtion import *
+from AutomataFactura import *
 entrada = automataMenu()
+entrada2 = AutomataFactura()
 def menu():
 
     print("Proyecto 1")
@@ -20,12 +22,16 @@ def menuP():
     while True:
         opcion = menu()
         if opcion == '1':
+            contador = 1
             cadena = openFile()
             listatk = entrada.analizador(cadena)
             for i in listatk:
-                print(i)
-        # elif opcion == '2':
+                print(str(contador),' : ', i)
+                contador += 1
 
+        elif opcion == '2':
+            factura = openFile()
+            entrada2.analizadorF(factura)
         # if opcion == '3':
 
         # if opcion == '4':

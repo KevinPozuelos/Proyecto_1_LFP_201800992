@@ -1,10 +1,11 @@
-restaurante='Restaurante LFP'
+restaurante='restaurante LFP'
 'Bebidas':
-[bebida_1;'Bebida #1';11.;'Descripcion Bebida 1']
-[ bebida_2;'Bebida #2';10.50;'Descripcion Bebida 2']
+[bebida_1;'Bebida #1';11.;'Descripcion Bebida 1' ]
+[ bebida_2;'Bebida #2';10.50; 'Descripción Bebida 2']
 'Desayunos':
 [d1;'Desayuno 1';45.00;'Descripcion Desayuno 1']
-[d2 ;'Desayuno 2';    40.   ;'Descripcion Desayuno 2']
-[d3;'Desayuno 3';35;'Descripcion Desayuno3']
-'  Postres':
-[   pos_001;'Postre 1'   ;25;'Descripcion Postre 1']
+[d2 ;'Desayuno 2'; 40. ;'Descripcion Desayuno 2']
+[d3;'Desayuno 3';35;'Descripción Desayuno3']
+' Postres':
+[ pos_001;'Postre 1' ;25;'Descripcion Postre 1']
+5;'Descripcion Postre 1']
