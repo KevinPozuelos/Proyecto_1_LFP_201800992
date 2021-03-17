@@ -22,20 +22,19 @@ def menuP():
     while True:
         opcion = menu()
         if opcion == '1':
-            contador = 1
-            cadena = openFile()
-            listatk = entrada.analizador(cadena)
-            for i in listatk:
-                print(str(contador),' : ', i)
-                contador += 1
 
-        elif opcion == '2':
-            factura = openFile()
-            entrada2.analizadorF(factura)
+            cadena = openFile()
+            entrada.analizador(cadena)
+            entrada.reporteToken()
+            entrada.imprimir()
+        #elif opcion == '2':
+
         # if opcion == '3':
 
-        # if opcion == '4':
-
+        if opcion == '4':
+             factura = openFile()
+             entrada2.analizadorF(factura)
+             entrada2.reporteToken()
         # elif opcion == '5':
 
         if opcion == '6':
