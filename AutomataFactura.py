@@ -93,13 +93,13 @@ class AutomataFactura:
                     columna += 1
                     state = 6
                 else:
-                    self.listTokens.append([linea, columna, 'numero', lexema])
+                    self.listTokens.append([linea, columna, 'identificador', lexema])
                     lexema = ""
                     state = 1
 
     def reporteToken(self):
         contenido = ''
-        htmFile = open("Factura" + ".html", "w", encoding='utf8')
+        htmFile = open("Reporte_Factura" + ".html", "w", encoding='utf8')
         htmFile.write("""<!DOCTYPE HTML PUBLIC"
 
             <html>
