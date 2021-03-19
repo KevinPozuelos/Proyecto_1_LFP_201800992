@@ -1,0 +1,69 @@
+digraph G { 
+Inicio[label="Nombre"]
+Nombre[label="'restaurante LFP'"]
+Inicio -> Nombre 
+sec1[label="'Bebidas'"]
+Nombre -> sec1
+son0[label="bebida_1 : Q11.
+'Descripcion Bebida 1'"]
+sec1-> son0
+son1[label="bebida_2 : Q10.50
+'Descripción Bebida 2'"]
+sec1-> son1
+sec2[label="'Desayunos'"]
+Nombre -> sec2
+son2[label="d1 : Q45.00
+'Descripcion Desayuno 1'"]
+sec2-> son2
+son3[label="d2 : Q40.
+'Descripcion Desayuno 2'"]
+sec2-> son3
+son4[label="d3 : Q35
+'Descripción Desayuno3'"]
+sec2-> son4
+sec3[label="' Postres'"]
+Nombre -> sec3
+son5[label="pos_001 : Q25
+'Descripcion Postre 1'"]
+sec3-> son5
+son6[label="pos_002 : Q16.45
+'Descripcion Postre 2'"]
+sec3-> son6
+son7[label="pos_003 : Q08.98
+'Descripcion Postre 3'"]
+sec3-> son7
+son8[label="pos_004 : Q89.23
+'Descripcion Postre 4'"]
+sec3-> son8
+son9[label="pos_005 : Q56.56
+'Descripcion Postre 5'"]
+sec3-> son9
+sec4[label="' cena'"]
+Nombre -> sec4
+son10[label="cen_001 : Q25
+'Descripcion Cena 1'"]
+sec4-> son10
+son11[label="cen_002 : Q15
+'Descripcion Cena 2'"]
+sec4-> son11
+son12[label="cen_003 : Q11.56
+'Descripcion Cena 3'"]
+sec4-> son12
+son13[label="cen_004 : Q16.56
+'Descripcion Cena 4'"]
+sec4-> son13
+sec5[label="' Extras'"]
+Nombre -> sec5
+son14[label="ex_001 : Q25
+'Descripcion extra1'"]
+sec5-> son14
+son15[label="ex_002 : Q15
+'Descripcion extra 2'"]
+sec5-> son15
+son16[label="ex_003 : Q45
+'Descripcion extra 3'"]
+sec5-> son16
+son17[label="exn_004 : Q55
+'Descripcion extra 4'"]
+sec5-> son17
+}
