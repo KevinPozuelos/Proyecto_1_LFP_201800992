@@ -26,7 +26,7 @@ def menuP():
             cadena = openFile()
             entrada.analizador(cadena)
             entrada.reporteToken()
-
+            entrada.reporteError()
         elif opcion == '2':
             factura = openFile()
             entrada2.analizadorF(factura)

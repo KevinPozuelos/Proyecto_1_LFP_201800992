@@ -51,7 +51,7 @@ class automataMenu:
                         indice += 1
                         columna += 1
                     else:
-                        self.error.append([linea, columna, entry[indice],"No se esperaba caracter <----- "])
+                        self.error.append([linea, columna, entry[indice],"No se reconocio caracter"])
                         indice += 1
                         columna += 1
 
@@ -214,6 +214,55 @@ class automataMenu:
                 </body>
                 </html>""")
         htmFile.close
+
+    def reporteError(self):
+        contenido = ''
+        htmFile = open("Error_menu" + ".html", "w", encoding='utf8')
+        htmFile.write("""<!DOCTYPE HTML PUBLIC"
+
+                        <html>
+
+                        <head>
+                            <title>Reporte de tokens Menu</title>
+                         <meta charset="utf-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+                        </head>
+                        <body>
+                        <div class="container">
+                      <h2>Reporte de tokens</h2>
+                      <p>Lista de tokens</p>            
+                      <table class="table">
+                        <thead>
+                          <tr>
+                           <th>Fila</th>
+                            <th>Columna</th>
+                            <th>caracter</th>
+                            <th>descripcion</th>
+                          </tr>
+                        </thead>
+
+                        """)
+        for i in range(len(self.error)):
+            contenido += (" <tbody>"
+                          "<td>" + str(self.error[i][0]) + "</td>"
+
+                                                                "<td>" + str(self.error[i][1]) + "</td>"
+                                                                                                      "<td>" + str(
+                self.error[i][2]) + "</td>"
+                                         "<td>" + str(self.error[i][3]) + "</td>"
+                                                                               "</tbody>")
+        htmFile.write(contenido)
+        htmFile.write("""
+                     </table>
+                </div>
+                    </body>
+                    </html>""")
+        htmFile.close
+
+
 
 
 
