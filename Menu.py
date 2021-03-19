@@ -26,17 +26,21 @@ def menuP():
             cadena = openFile()
             entrada.analizador(cadena)
             entrada.reporteToken()
-            entrada.imprimir()
-        #elif opcion == '2':
 
-        # if opcion == '3':
+        elif opcion == '2':
+            factura = openFile()
+            entrada2.analizadorF(factura)
+            entrada2.reporteToken()
 
-        if opcion == '4':
-             factura = openFile()
-             entrada2.analizadorF(factura)
-             entrada2.reporteToken()
-        # elif opcion == '5':
+        if opcion == '3':
+            entrada.generarMenu()
 
+        #if opcion == '4':
+
+        elif opcion == '5':
+            listaOrdenada = entrada.ordenarSecciones()
+            entrada.generarGraph(listaOrdenada)
+            
         if opcion == '6':
             break
 

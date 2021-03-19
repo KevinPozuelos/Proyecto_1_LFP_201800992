@@ -4,8 +4,21 @@ restaurante='restaurante LFP'
 [ bebida_2;'Bebida #2';10.50; 'Descripción Bebida 2']
 'Desayunos':
 [d1;'Desayuno 1';45.00;'Descripcion Desayuno 1']
-[d2 ;'Desayuno 2'; 40. ;'Descripcion Desayuno 2']
+[d2;'Desayuno 2'; 40.;'Descripcion Desayuno 2']
 [d3;'Desayuno 3';35;'Descripción Desayuno3']
 ' Postres':
 [ pos_001;'Postre 1' ;25;'Descripcion Postre 1']
-5;'Descripcion Postre 1']
+[ pos_002;'Postre 2' ;16.45;'Descripcion Postre 2']
+[ pos_003;'Postre 3' ;08.98;'Descripcion Postre 3']
+[ pos_004;'Postre 4' ;89.23;'Descripcion Postre 4']
+[ pos_005;'Postre 5' ;56.56;'Descripcion Postre 5']
+' cena':
+[ cen_001;'Cena 1' ;25;'Descripcion Cena 1']
+[ cen_002;'Cena 2' ;15;'Descripcion Cena 2']
+[ cen_003;'Cena 3' ;11.56;'Descripcion Cena 3']
+[ cen_004;'Cena 4' ;16.56;'Descripcion Cena 4']
+' Extras':
+[ ex_001;'ext 1' ;25;'Descripcion extra1']
+[ ex_002;'ext 2' ;15;'Descripcion extra 2']
+[ ex_003;'ext 3' ;45;'Descripcion extra 3']
+[ exn_004;'ext 4' ;55;'Descripcion extra 4']
