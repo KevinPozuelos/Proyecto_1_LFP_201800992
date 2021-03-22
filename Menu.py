@@ -40,8 +40,8 @@ def menuP():
 
             listaOrdenada = entrada.ordenarSecciones()
             entrada.vista(listaOrdenada)
-        #if opcion == '4':
-
+        if opcion == '4':
+            entrada2.vistaFactura()
         elif opcion == '5':
             listaOrdenada = entrada.ordenarSecciones()
             entrada.generarGraph(listaOrdenada)

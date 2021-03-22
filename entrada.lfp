@@ -1,24 +1,26 @@
-restaurante='restaurante LFP'
+restaurante = 'TACO BELL A DOMICILIO - Live Mas'
+'PROMOCIONES':
+[family6;'FAMILY BOX SUPREME (PARA 6)';145;'3 Burritos 5 capas, 3 Crunchywrap supreme, 2 Quesadillas de Pollo, 1 Nachos Supreme, 2 Cinnamon Twists.']
+[family4;'FAMILY BOX GRANDE (PARA 4)';49;'2 Chalupas Supreme de Pollo Frito, 2 Burritos 5 capas, 4 Tacos Suaves, 1 Nachos Supreme y 2 Cinnamon Twists.']
+[family2;'FAMILY BOX MEDIANO (PARA 2)';99;'2 Crunchywrap Supreme, 2 Tacos Suaves de Carne + 1 Nacho Supreme.']
+
+'Combos':
+[combo2;'COMBO #2 - BURRITO 1/2LB CRUNCHY';32.00;'Burrito 1/2Lb Crunchy, Complemento a elegir y bebida lata.'    ]
+[combo3;'COMBO #3 - BURRITO 5 CAPAS';32.00;'Burrito 5 Capas, Complemento a elegir y bebida lata.']
+[combo1; 'COMBO #1 - CHALUPA BAJA';32 ;'Chalupa Baja, Complemento a elegir y bebida lata.']
+'Individuales' :
+[crunchy;'NACHO CRUNCHY BURRITO';17;'Carne sazonada, salsa queso, tiras rojas, crema agria, tomate envuelto en una tortilla de harina.']
+[stacker;'STACKER DE CARNE';14.0;'Carne sazonada, salsa queso, mezcla de 3 quesos derretidos a la perfección dentro una tortilla de harina a la plancha en forma de triángulo.']
+[ gordita;'GORDITA CRUNCH'; 18.00 ;'Flatbread a la plancha con abundante queso derretido, salsa spicy ranch, envuelto en un Taco original.']
+[b5capas;'BURRITO 5 CAPAS';16.000;'Deliciosa carne sazonada, frijoles, salsa queso, crema agria, auténtico queso cheddar envuelto en una tortilla de harina.']
+'Complementos'  :
+[p_supreme;'PAPAS SUPREME' ; 19;'Deliciosas Papas Fritas con carne sazonada, salsa queso, crema agria, tomate y cebollín.']
+[n_supreme; 'NACHOS SUPREME';18;'Deliciosos Nacho chips servidos con frijoles, carne sazonada, salsa queso, crema agria, tomate fresco y cebollín.' ]
+ 'Postres' :
+[cinnamon;'CINNAMON TWISTS';11; '' ]
+[flauta;'FLAUTA DE DULCE DE LECHE';11; '' ]
 'Bebidas':
-[bebida_1;'Bebida #1';11.;'Descripcion Bebida 1' ]
-[ bebida_2;'Bebida #2';10.50; 'Descripción Bebida 2']
-'Desayunos':
-[d1;'Desayuno 1';45.00;'Descripcion Desayuno 1']
-[d2;'Desayuno 2'; 40.;'Descripcion Desayuno 2']
-[d3;'Desayuno 3';35;'Descripción Desayuno3']
-' Postres':
-[ pos_001;'Postre 1' ;25;'Descripcion Postre 1']
-[ pos_002;'Postre 2' ;16.45;'Descripcion Postre 2']
-[ pos_003;'Postre 3' ;08.98;'Descripcion Postre 3']
-[ pos_004;'Postre 4' ;89.23;'Descripcion Postre 4']
-[ pos_005;'Postre 5' ;56.56;'Descripcion Postre 5']
-' cena':
-[ cen_001;'Cena 1' ;25;'Descripcion Cena 1']
-[ cen_002;'Cena 2' ;15;'Descripcion Cena 2']
-[ cen_003;'Cena 3' ;11.56;'Descripcion Cena 3']
-[ cen_004;'Cena 4' ;16.56;'Descripcion Cena 4']
-' Extras':
-[ ex_001;'ext 1' ;25;'Descripcion extra1']
-[ ex_002;'ext 2' ;15;'Descripcion extra 2']
-[ ex_003;'ext 3' ;45;'Descripcion extra 3']
-[ exn_004;'ext 4' ;55;'Descripcion extra 4']
+[bb1;'PEPSI LIGHT';10.;'Lata']
+[bb2;'AGUA PURA';10.;'AQUA 600ml']
+[ bb3;'PEPSI'; 10.;'Lata']
+[b;'BE LIGHT';15.; 'Botella 600ml']

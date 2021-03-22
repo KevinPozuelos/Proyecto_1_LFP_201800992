@@ -308,12 +308,16 @@ class automataMenu:
 				        <table class="table table-striped table-bordered table-hover table-dark">
 					    <thead>
 						<tr>
-							<th>Factura</th>
+							<th>"""+ str(lista[0]) +"""</th>
 							
 						</tr>
 					</thead>
 					""")
-
+        for i in range(1,len(lista)):
+            listCuerpo = lista[i][1]
+            contenido += "<tbody>" + "<tr>" + "<td>" + "<h2>" + str(lista[i][0])+ "</h2>"+ "</td >" + "</tr>" + "</tbody>"
+            for x in range(0,len(listCuerpo)):
+                contenido += "<td>" +"Nombre"+ str(listCuerpo[x][0])+" : PRECIO: Q:" + str(listCuerpo[x][2])+ " Descripcion " + str(listCuerpo[x][3]) + "</td>"+"</tr>" + "</tbody>"
 
 
         htmFile.write(contenido)
