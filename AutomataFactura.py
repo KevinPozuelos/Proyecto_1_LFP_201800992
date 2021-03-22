@@ -188,3 +188,46 @@ class AutomataFactura:
         </body>
         </html>""")
         htmFile.close
+
+    def vistaFactura(self):
+        contenido = ''
+        htmFile = open("VistaMenu" + ".html", "w", encoding='utf8')
+        htmFile.write("""<!DOCTYPE html>
+                                <html lang="es">
+                                <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Bootstrap 4. Tablas</title>
+                                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+                                </head>
+                                <body>
+                                <div class="container">
+        		                <div class="row">
+        			            <div class="col">
+        				        <table class="table table-striped table-bordered table-hover table-dark">
+        					    <thead>
+        						<tr>
+        							<th>""" + str(lista[0]) + """</th>
+
+        						</tr>
+        					</thead>
+        					""")
+        for i in range(1, len(lista)):
+            listCuerpo = lista[i][1]
+            contenido += "<tbody>" + "<tr>" + "<td>" + "<h2>" + str(
+                lista[i][0]) + "</h2>" + "</td >" + "</tr>" + "</tbody>"
+            for x in range(0, len(listCuerpo)):
+                contenido += "<td>" + "Nombre" + str(listCuerpo[x][0]) + " : PRECIO: Q:" + str(
+                    listCuerpo[x][2]) + " Descripcion " + str(listCuerpo[x][3]) + "</td>" + "</tr>" + "</tbody>"
+
+        htmFile.write(contenido)
+        htmFile.write("""
+        				</table>
+        			</div>
+        		</div>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        </body>
+        </html>""")
+        htmFile.close
