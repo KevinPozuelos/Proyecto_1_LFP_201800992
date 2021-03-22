@@ -160,8 +160,8 @@ class AutomataFactura:
             </head>
             <body>
             <div class="container">
-          <h2>Reporte de tokens</h2>
-          <p>Lista de tokens</p>            
+          <h2>Reporte de errores</h2>
+          <p>Lista de errores</p>            
           <table class="table">
             <thead>
               <tr>

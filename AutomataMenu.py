@@ -130,7 +130,6 @@ class automataMenu:
         contenido = ''
         htmFile = open("Reporte_Menu" + ".html", "w",encoding='utf8')
         htmFile.write("""<!DOCTYPE HTML PUBLIC"
-
             <html>
 
             <head>
